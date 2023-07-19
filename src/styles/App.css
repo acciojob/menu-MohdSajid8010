@@ -1,12 +1,78 @@
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+
+.food {
+    display: flex;
+
+}
+
+.food .right{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+img {
+    width: 50%;
+    border: 1px solid saddlebrown;
+}
+.price{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.price div{
+  font-weight: 600;
+}
+.price strong{
+  color: orange;
+}
+.menu-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
+#categories {
+    /* border: 1px solid grey; */
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#categories div {
+    padding: 0px 20px;
+    height: 29px;
+    color: orange;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0px;
+}
+
+#underline {
+    height: 3px;
+    width: 80px;
+    background: orange;
+    margin: 20px 0px;
 }
